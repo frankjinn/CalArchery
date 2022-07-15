@@ -1,0 +1,31 @@
+/* 
+Author: Frank Jin
+CSS for the header/navbar of the website.
+*/
+.container{
+    align-items: center;
+    background-color: transparent;
+    z-index: 0;
+    position: relative;
+}
+
+.logo {
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.spacer {
+    flex-grow: 4;
+}
+
+.navBar {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top-left-radius:  50px;
+    border-bottom-left-radius:  50px;
+}
+
+.tab {
+    margin: 1rem
+}
