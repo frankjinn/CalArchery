@@ -10,7 +10,7 @@ function NavButton(props) {
     return(
         <div>
             <Button m={defaultScaling} colorScheme='teal' variant='solid'
-             borderRadius={"full"} to>
+             borderRadius={"full"}>
                  <Icon mr={"10px"} as={props.icon}/>
                 {props.name}
             </Button>
