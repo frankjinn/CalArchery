@@ -29,7 +29,3 @@ CSS for the header/navbar of the website.
 .tab {
     margin: 1rem;
 }
-
-.navLink:hover {
-    text-decoration: none;
-}

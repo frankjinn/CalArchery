@@ -2,17 +2,19 @@ import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import './App.css';
 import {Nav, Footer, Home, About} from "./components"
-import { Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <ChakraProvider>
       <div>
-          <Nav/>
+        <Nav/>
+        <div>
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/About" element={<About/>}/>
           </Routes>
+        </div>
         <Footer/>
       </div>
     </ChakraProvider>

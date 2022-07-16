@@ -16,10 +16,10 @@ function Navagation() {
                 <Flex className={style['logo']} > Logo </Flex>
                 <div className={style['spacer']}></div>
                 <Flex className={style['navBar']} padding = {defaultScaling} textDecoration="none">
-                <Link className={style['navLink']} to="/" as={ReactRouterLink}><NavButton name="Home" icon={AiOutlineHome}/></Link>
-                    <Link className={style['navLink']} to="/about" as={ReactRouterLink}><NavButton name="About"/></Link>
-                    <Link className={style['navLink']} to="/ascent" as={ReactRouterLink}><NavButton name="Ascent" icon={BsChevronDoubleUp}/></Link>
-                    <Link className={style['navLink']} to="/resources" as={ReactRouterLink}><NavButton name="Resources" icon={DownloadIcon}/></Link>
+                <Link as={ReactRouterLink} to="/" style={{ textDecoration: 'none' }}><NavButton name="Home" icon={AiOutlineHome}/></Link>
+                <Link as={ReactRouterLink} to="/about" style={{ textDecoration: 'none' }}><NavButton name="About"/></Link>
+                <Link as={ReactRouterLink} to="/ascent" style={{ textDecoration: 'none' }}><NavButton name="Ascent" icon={BsChevronDoubleUp}/></Link>
+                <Link as={ReactRouterLink} to="/resources" style={{ textDecoration: 'none' }}><NavButton name="Resources" icon={DownloadIcon}/></Link>
 
                                 {/* <NavButton name="Home" icon={AiOutlineHome}/>
                                 <NavButton name="About"/>
