@@ -1,5 +1,6 @@
 import React from "react";
 import {Flex, Link} from '@chakra-ui/react';
+import {Link as ReactRouterLink} from 'react-router-dom'
 import NavButton from "./NavComp/NavButton";
 import style from "./NavComp/styles/Nav.module.css";
 
@@ -15,10 +16,10 @@ function Navagation() {
                 <Flex className={style['logo']} > Logo </Flex>
                 <div className={style['spacer']}></div>
                 <Flex className={style['navBar']} padding = {defaultScaling} textDecoration="none">
-                    <Link className={style['navLink']} to="/about"><NavButton name="About"/></Link>
-                    <Link className={style['navLink']} to="/"><NavButton name="Home" icon={AiOutlineHome}/></Link>
-                    <Link className={style['navLink']} to="/ascent"><NavButton name="Ascent" icon={BsChevronDoubleUp}/></Link>
-                    <Link className={style['navLink']} to="/resources"><NavButton name="Resources" icon={DownloadIcon}/></Link>
+                <Link className={style['navLink']} to="/" as={ReactRouterLink}><NavButton name="Home" icon={AiOutlineHome}/></Link>
+                    <Link className={style['navLink']} to="/about" as={ReactRouterLink}><NavButton name="About"/></Link>
+                    <Link className={style['navLink']} to="/ascent" as={ReactRouterLink}><NavButton name="Ascent" icon={BsChevronDoubleUp}/></Link>
+                    <Link className={style['navLink']} to="/resources" as={ReactRouterLink}><NavButton name="Resources" icon={DownloadIcon}/></Link>
 
                                 {/* <NavButton name="Home" icon={AiOutlineHome}/>
                                 <NavButton name="About"/>
