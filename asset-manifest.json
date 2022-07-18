@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CalArchery/static/css/main.b5787a1a.css",
+    "main.js": "/CalArchery/static/js/main.3dfd198e.js",
+    "static/js/377.8c545022.chunk.js": "/CalArchery/static/js/377.8c545022.chunk.js",
+    "index.html": "/CalArchery/index.html",
+    "main.b5787a1a.css.map": "/CalArchery/static/css/main.b5787a1a.css.map",
+    "main.3dfd198e.js.map": "/CalArchery/static/js/main.3dfd198e.js.map",
+    "377.8c545022.chunk.js.map": "/CalArchery/static/js/377.8c545022.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5787a1a.css",
+    "static/js/main.3dfd198e.js"
+  ]
+}
