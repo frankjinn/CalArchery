@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# New Cal Archery Website
+Before editing website, make sure to install npm, and run "npm install" to download all the required node modules to correctly load the page.
+
+To run website locally, use "npm start" on directory.
+
+## To-Do
+- design logo
+- choose font
+- make transition border
+- fill in pages
+- photo collage
+- choose photos and make description
+- make any graphics that are necessary
+- replace email icon with actual email
+- add youtube icon
+- add to github pages, so everyone can see the website without downloading it first.
+
+
+
+
+# Getting Started with Create React App (Some more notes on this project)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
