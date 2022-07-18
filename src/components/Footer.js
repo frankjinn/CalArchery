@@ -1,17 +1,25 @@
 import React from "react";
-import { Box, Flex, HStack, IconButton } from "@chakra-ui/react";
+import { Box, Button, Flex, HStack, IconButton, Text } from "@chakra-ui/react";
 import { AiFillMail } from 'react-icons/ai';
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import style from "./styles/Footer.module.css";
 
 
-function footer() {
+function Footer() {
     const openInNewTab = (url) => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
+
+    function emailButton(){
+        navigator.clipboard.writeText("some email").then(() => {
+            console.log("copied");
+            alert("Email Copied!")
+        });
+    }
+
     return (
         <Flex
         direction={"column"}
-        bgGradient='linear(to-l, #FFEC98, #D69CCD, #4E92FF)'
         align="center"
         p={2}>
             <Box p={2}>
@@ -21,30 +29,29 @@ function footer() {
             p={0}>
                 <IconButton
                     variant='solid'
-                    colorScheme='facebook'
-                    aria-label='Instagram'
-                    as={FaFacebookF}
-                    onClick={() => openInNewTab("https://www.instagram.com/")}
-                    p={1}
-                    
-                />
-                <IconButton
-                    variant='solid'
                     colorScheme='red'
                     aria-label='Instagram'
                     as={FaInstagram}
-                    onClick={() => openInNewTab("https://www.instagram.com/")}
+                    onClick={() => openInNewTab("https://www.instagram.com/calarcheryclub/?hl=en")}
+                />
+                <IconButton
+                    variant='solid'
+                    colorScheme='facebook'
+                    aria-label='Facebook'
+                    as={FaFacebookF}
+                    onClick={() => openInNewTab("https://www.facebook.com/calarchery/")}
+                    p={1}
                 />
                 <IconButton
                     variant='solid'
                     colorScheme='teal'
-                    aria-label='Instagram'
+                    aria-label='Email'
                     as={AiFillMail}
-                    onClick={() => openInNewTab("https://www.instagram.com/")}
-                />
+                    onClick={emailButton}>
+                </IconButton>
             </HStack>
         </Flex>
     
     )
 }
-export default footer
+export default Footer

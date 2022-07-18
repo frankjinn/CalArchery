@@ -5,9 +5,9 @@ import Carousel from 'better-react-carousel'
 function Gallery() {
   const defaultScaling = { base: '0.75em', md: '1em', lg: "1.2em"};
   return (
-    <Carousel cols={1} rows={1} gap={10} loop>
+    <Carousel cols={1} rows={1} gap={10} loop m={3} autoplay={3000}>
       <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=1" alt="img1"/>
+        <img width="auto" src="https://picsum.photos/800/600?random=1" alt="img1"/>
           <Heading fontSize={defaultScaling}  word-break={"break-all"} mt={2}>
             Some Title1
           </Heading>
@@ -16,7 +16,7 @@ function Gallery() {
           </Text>
       </Carousel.Item>
       <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=2" alt="img2"/>
+        <img width="auto" src="https://picsum.photos/800/600?random=2" alt="img2"/>
         <Heading fontSize={defaultScaling} mt={2}>
           Some Title2
         </Heading>
@@ -25,7 +25,7 @@ function Gallery() {
         </Text>
       </Carousel.Item>
       <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=3" alt="img3"/>
+        <img width="auto" src="https://picsum.photos/800/600?random=3" alt="img3"/>
         <Heading fontSize={defaultScaling} mt={2} flexWrap={'wrap'}>
           Some Title3
         </Heading>

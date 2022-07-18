@@ -2,7 +2,7 @@ import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import './App.css';
 import {Nav, Footer, Home, About} from "./components"
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 function App() {
   return (

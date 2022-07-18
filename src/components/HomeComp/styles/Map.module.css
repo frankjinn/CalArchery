@@ -1,0 +1,15 @@
+.bgImage {
+    /* Set a specific height */
+    min-height: 50px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.img1{
+    background-image: url(https://i.ytimg.com/vi/3OTIGZgIGug/maxresdefault.jpg);
+}
