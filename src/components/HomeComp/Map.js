@@ -1,3 +1,6 @@
+/* 
+The google maps api for the homepage.
+*/
 import { Flex, Heading} from "@chakra-ui/react";
 import React from "react";
 import style from "./styles/Map.module.css"

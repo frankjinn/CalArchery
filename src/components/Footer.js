@@ -1,3 +1,6 @@
+/*
+    The footer for the website. Includes the icons.
+*/
 import React from "react";
 import { Box, Button, Flex, HStack, IconButton, Text } from "@chakra-ui/react";
 import { AiFillMail } from 'react-icons/ai';

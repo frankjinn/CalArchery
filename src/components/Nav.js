@@ -1,3 +1,7 @@
+/*
+    Navbar for the website. Serves as router. Using React preloaded webpages
+    so there are no reload times when using navbar.
+*/
 import React from "react";
 import {Flex, Link} from '@chakra-ui/react';
 import {Link as ReactRouterLink} from 'react-router-dom'

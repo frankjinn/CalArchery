@@ -1,3 +1,8 @@
+/*
+Sliding gallary. Simply copy and paste with more images to extend gallary.
+Edit image title and description here as well.
+*/
+
 import React from 'react'
 import {Text, Heading} from '@chakra-ui/react'
 import Carousel from 'better-react-carousel'

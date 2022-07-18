@@ -1,10 +1,11 @@
+/* 
+Author: Frank Jin
+Background for the homepage. It is a animated background which can be modified in css.
+*/
+
 import React from 'react';
 import {Box} from '@chakra-ui/react';
 import style from "./styles/Background.module.css";
-/* 
-Author: Frank Jin
-Background for the website.
-*/
 function Background() {
     return (
         <div>

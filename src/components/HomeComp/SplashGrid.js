@@ -1,6 +1,6 @@
 /* 
 Author: Frank Jin
-Gridmap for the layout of the website.
+The grid setup for the splashpage of the homepage.
 */
 
 import React from "react";

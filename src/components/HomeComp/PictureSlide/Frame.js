@@ -1,3 +1,6 @@
+/*
+Frame for the sliding gallary
+*/
 import React from "react";
 import {Flex, Box} from '@chakra-ui/react';
 import Gallery from './Gallery'

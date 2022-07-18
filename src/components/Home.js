@@ -1,3 +1,6 @@
+/*
+    The homepage of the website.
+*/
 import React from 'react';
 import GridMap from './HomeComp/SplashGrid'
 import Map from './HomeComp/Map'
