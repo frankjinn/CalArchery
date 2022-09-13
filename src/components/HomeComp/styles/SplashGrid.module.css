@@ -28,7 +28,11 @@
 }
 
 .desc{
-    background-color: white;
+    width: 50%;
+    margin: 1rem;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
 }
 
 .bgImage{
@@ -43,5 +47,9 @@
     height: 100%;
 }
 .img1{
-    background-image: url("../../../ImageAssets/WhoAreWe-edited.jpg");
+    background-image: url("../../../ImageAssets/WhoAreWe-edited.webp");
+}
+
+.img2{
+    background-image: url("../../../ImageAssets/newToArchery.webp");
 }
