@@ -20,7 +20,7 @@ function Navagation() {
                 <Flex className={style['logo']} > Logo </Flex>
                 <div className={style['spacer']}></div>
                 <Flex className={style['navBar']} padding = {'1vh'} textDecoration="none">
-                    <Link as={ReactRouterLink} to="/" style={{ textDecoration: 'none' }}><NavButton name="Home" icon={AiOutlineHome}/></Link>
+                    <Link as={ReactRouterLink} to="/CalArchery" style={{ textDecoration: 'none' }}><NavButton name="Home" icon={AiOutlineHome}/></Link>
                     <Link as={ReactRouterLink} to="/about" style={{ textDecoration: 'none' }}><NavButton name="About"/></Link>
                     <Link as={ReactRouterLink} to="/ascent" style={{ textDecoration: 'none' }}><NavButton name="Ascent" icon={BsChevronDoubleUp}/></Link>
                     <Link as={ReactRouterLink} to="/resources" style={{ textDecoration: 'none' }}><NavButton name="Resources" icon={DownloadIcon}/></Link>

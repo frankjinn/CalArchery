@@ -38,14 +38,28 @@ function GridMap() {
         </Grid>
           <div className={`${style.bgImage} ${style.img1}`}>
             <div className={style.body}>
-              <h1 className={style.title}>Who are we</h1>
-              <Text className={style.desc}>Stuff about the club</Text>
+              <h1 className={style.title} style = {{color : "#edc25c"}}>Who We Are</h1>
+              <Text className={style.desc}>
+                Cal Archery is one of the first collegiate archery teams to be organized in the 
+                west coast. Our team travels around the country competing in collgiate level archery
+              </Text>
               <Button 
               colorScheme='yellow' 
               variant='solid'>
                 <a href="http://localhost:3000/about">Learn More</a>
               </Button>
-
+            </div>
+          </div>
+          
+          <div className={`${style.bgImage} ${style.img1}`}>
+            <div className={style.body}>
+              <h1 className={style.title} style = {{color : "#4169e1"}}>New to Archery?</h1>
+              <Text className={style.desc}>Stuff about Ascent</Text>
+              <Button 
+              colorScheme='blue' 
+              variant='solid'>
+                <a href="http://localhost:3000/ascent">Learn More</a>
+              </Button>
             </div>
           </div>
        </div>
